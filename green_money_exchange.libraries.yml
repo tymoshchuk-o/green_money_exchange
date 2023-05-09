@@ -1,0 +1,8 @@
+green_money_exchange_chart:
+  version: 1.x
+  js:
+    /libraries/chart.js/dist/chart.umd.js: { }
+    js/exchange.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

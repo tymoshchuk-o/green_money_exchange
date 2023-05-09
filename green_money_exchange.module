@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * General functions and hook implementations.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function green_money_exchange_theme($existing, $type, $theme, $path) {
+  return [
+    'green_exchange_template' => [
+      'variables' => ['exchange_var' => NULL],
+    ],
+  ];
+}

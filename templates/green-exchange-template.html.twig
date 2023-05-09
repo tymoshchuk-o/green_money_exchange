@@ -1,0 +1,22 @@
+{# green_money_exchange/templates/green-exchange-template.html.twig #}
+
+{% if exchange_var %}
+  <div class="green-exchange">
+    <div>
+      <canvas id="greenChart"></canvas>
+    </div>
+{#    <div class="green-exchange-wrap">#}
+{#      <ul class="green-exchange-list">#}
+{#        {% for currency in exchange_var %}#}
+{#          <li class="green-exchange-item">#}
+{#            <h3>{{ currency.cc }} - {{ currency.txt }}</h3>#}
+{#            <div class="">{{ currency.rate }}</div>#}
+{#          </li>#}
+{#        {% endfor %}#}
+{#      </ul>#}
+{#    </div>#}
+{#  </div>#}
+{% endif %}
+{% if not exchange_var|length > 0 %}
+  <h1>{{ "Currency not found"|t }}</h1>
+{% endif %}

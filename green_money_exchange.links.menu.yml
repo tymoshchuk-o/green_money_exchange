@@ -1,0 +1,5 @@
+example.anchor:
+  title: "Green Money Exchange"
+  description: "Green Money Exchange Settings"
+  parent: system.admin
+  route_name: green_money_exchange.config

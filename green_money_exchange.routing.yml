@@ -1,0 +1,7 @@
+green_money_exchange.config:
+  path: '/admin/config/green_exchange/settings'
+  defaults:
+    _form: '\Drupal\green_money_exchange\Form\CustomConfigForm'
+    _title: 'Green Money exchange settings'
+  requirements:
+    _permission: 'administer site configuration'

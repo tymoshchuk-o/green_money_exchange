@@ -1,0 +1,4 @@
+services:
+  green_money_exchange.exchange:
+    class: Drupal\green_money_exchange\GreenExchangeService
+    arguments: ['@http_client', '@config.factory', '@logger.factory', '@entity_type.manager', '@state']
